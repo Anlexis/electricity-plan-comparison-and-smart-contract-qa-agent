@@ -1,0 +1,22 @@
+# Import shims are not a runtime: the framework packages ship in the installed
+# agenticstar-agentcore SDK. Kept ignored so they cannot be re-committed.
+ci_stubs/
+
+# Python build / cache artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Centrally distributed, not part of the published template.
+CLAUDE.md
+security_rules/
+MANIFEST.md
